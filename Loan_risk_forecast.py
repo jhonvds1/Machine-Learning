@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 
 
-adult_data = pd.read_csv('adult/adult.data.csv')
+adult_data = pd.read_csv('adult.data.csv')
 x_adult_data = adult_data.iloc[:,:14]
 y_adult_data = adult_data.iloc[:,14]
 le_state_gov = LabelEncoder()
